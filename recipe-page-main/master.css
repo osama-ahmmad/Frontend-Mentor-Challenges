@@ -1,0 +1,114 @@
+body {
+  background-color: hsl(30, 54%, 90%);
+  font-size: 16px;
+  color: hsl(30, 10%, 34%);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background-color: white;
+}
+
+.omelette {
+  width: 100%;
+  height: auto;
+  border-radius: 25px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  margin-left: 25px;
+  padding: 15px 0;
+}
+
+p {
+  font-size: 16px;
+  padding-left: 15px;
+  margin-left: 25px;
+}
+
+main > .preparation {
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 6px;
+  padding: 10px 0;
+  margin: 35px 25px;
+}
+
+.preparation > ul {
+  margin-top: 30px;
+}
+
+.preparation ul li {
+  margin: 10px 20px;
+  padding-left: 10px;
+}
+
+.preparation ul li::marker {
+  color: hsl(332, 51%, 32%);
+}
+
+.big-title {
+  margin-left: 43px;
+  color: hsl(332, 51%, 32%);
+}
+
+.big-title2 {
+  margin-left: 45px;
+  color: hsl(14, 45%, 36%);
+}
+
+.preparation ul li,
+.big-title,
+.big-title2,
+.Ingredients ul li,
+.Instructions ol li,
+p,
+table {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.Ingredients,
+.Instructions,
+.Nutrition {
+  margin-left: 15px;
+}
+
+.Ingredients ul li,
+.Instructions ol li,
+.left {
+  margin: 15px 20px;
+  padding-left: 10px;
+  color: hsl(30, 10%, 34%);
+}
+
+.Ingredients ul li::marker,
+.Instructions ol li::marker,
+.right {
+  color: hsl(14, 45%, 36%);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+td {
+  text-align: center;
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+  background-color: coral;
+}

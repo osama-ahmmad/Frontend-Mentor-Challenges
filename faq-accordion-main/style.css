@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: hsl(275, 100%, 97%);
+    background-image: url(./assets/images/background-pattern-desktop.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.card {
+    width: 30%;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    font-family: Work Sans;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.title {
+    display: inherit;
+    gap: 15px;
+}
+.title h1 {
+    font-size: 50px;
+    color: hsl(297, 65%, 17%);
+}
+
+.questions {
+    font-size: 20px;
+    font-weight: 600;
+    color: hsl(297, 60%, 19%);
+}
+
+.questions p {
+    color: hsl(293, 17%, 38%);
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 15px;
+}
+
+.qustetion-head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.qustetion-head h5:hover {
+    color: rgb(178 24 178);
+    cursor: pointer;
+}
+
+.icon-plus {
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 375px) {
+    body {
+        background-image: url(./assets/images/background-pattern-mobile.svg);
+    }
+
+    .card {
+        width: 85%;
+    }
+}
+
+@media (min-width: 1024px) {
+    body {
+        background-image: url(./assets/images/background-pattern-desktop.svg);
+    }
+
+    .card {
+        width: 30%;
+    }
+}
